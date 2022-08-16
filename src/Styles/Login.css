@@ -1,0 +1,215 @@
+@import url('../Styles/utilities.css');
+
+.login-sec {
+    background: #f2f5ff;
+}
+.login-hero {
+    background: #f2f5ff;
+    width: 100%;
+    height: auto;
+    height: 100vh;
+}
+
+.txt-col h1{
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.txt-col p {
+    color: #959595;
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: 300;
+    font-family: 'Inter',sans-serif;
+}
+
+.email-field , .Password-field{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_main {
+    background: var(--white-bg);
+    padding: 2rem 3rem 2rem 3rem;
+    width: 100%;
+    max-width: 30%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px -1px 20px 1px rgb(0 0 0 / 14%);;
+}
+
+.login_logo {
+    text-align: center;
+}   
+.login_logo img{
+    /* width:40%;
+    margin-bottom: 1rem; */
+    width: 65%;
+    margin-bottom: 1.5rem;
+}
+
+.form-col {
+    padding-top: 23px;
+    padding-bottom: 10px;
+}
+
+.alert {
+    color: red;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-style: italic;
+    display: none;
+}
+.email-field {
+    /* padding: 1rem 0; */
+    padding-bottom: 10px;
+}
+
+.email-field input , .Password-field input{
+    padding: 15px 10px;
+    display: inline;
+    background: #f9f8f6;
+    font-size: 13px;
+    outline: none;
+    font-weight: 500;
+    /* border:1px solid #959595; */
+    border:1px solid #dfdfdf;
+    /* border: 2px solid rgb(229, 62, 62); */
+    border-radius: 10px;
+    margin: 8px 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.email-field input:focus ,.Password-field input:focus{
+    border: 1px solid rgb(229, 62, 62);
+    box-shadow: rgb(229 62 62) 0px 0px 0px 1px;
+    font-weight: 600;
+    transition: all .3s ease
+}
+
+.email-field input::placeholder ,.Password-field input::placeholder{
+    font-style: italic;
+}
+
+.btn-login {
+    width: 100%;
+    margin: 20px 0;
+    height: auto;
+    padding: 15px;
+    font-size: 1rem;
+    border-radius: 10px;
+    outline: none;
+    background: #e06358;
+    border: 1px solid rgb(229, 62, 62);
+    color: var(--white-bg);
+    line-height: 18px;
+    font-family: 'Inter', sans-serif;
+    display: inline-flex;
+    font-weight: 500;
+    justify-content: center;
+}
+
+.btn-login:hover {
+    background-color: rgb(244, 67, 67);
+    transition: all .3s ease-in-out;
+}
+
+.chakra-text {
+    background-color: rgb(255, 255, 255);
+    padding: 0px 20px;
+    display: inline;
+    color: var(--grey-grade8);
+    font-size: 15px;
+}
+
+.line {
+    text-align: center;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: var(--grey-grade2);
+    line-height: 0.1em;
+    margin: 18px 0px;
+}
+
+.g-signin {
+    display: flex;
+    align-items: center;
+}
+
+.g-signin p {
+    margin-left: 1rem;
+    font-family: 'Inter',sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--grey-grade18);
+}
+
+.g-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    outline: transparent solid 2px;
+    outline-offset: 2px;
+    width: 100%;
+    border-radius: 8px;
+    font-weight: 500;
+    height: 48px;
+    cursor: pointer;
+    box-shadow: rgb(0 0 0 / 6%) 0px 1px 2px, rgb(0 0 0 / 10%) 0px 1px 3px;
+    background: #f9f8f6;
+    border: 1px solid #e1e1e1;
+}
+
+.g-btn:hover {
+    background: #f2f0ed;
+    transition: all .3s ease-in-out;
+}
+.google {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    line-height: 1em;
+    flex-shrink: 0;
+    color: currentcolor;
+    vertical-align: middle;
+}
+
+.f-pass-col {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rembr {
+    display: flex;
+}
+.rembr p{
+    margin-left:10px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.f-pass {
+    font-size: 13.2px;
+    font-weight: 500;
+    font-style: italic;
+    color: var(--grey-grade14);
+}
+
+
+.dnt-acct {
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 13px;
+}
+
+.dnt-acct a {
+    color: #959595;
+    font-style: italic;
+}
