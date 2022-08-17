@@ -43,7 +43,7 @@ export default function Login() {
                       <p>Remember me</p>
                   </div>
                   <div className='f-pass'>
-                    <Link to="/" className='forgot'>Forgot Password</Link>
+                    <Link to="/ForgotPassword" className='forgot'>Forgot Password</Link>
                   </div>
               </div>
               <div className='line'>

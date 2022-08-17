@@ -1,8 +1,7 @@
 import React from 'react'
-import '../Styles/app.css'
 
-export default function Notification() {
+export default function notifi() {
   return (
-    <div>Notification</div>
+    <div>notifi</div>
   )
 }
