@@ -133,6 +133,49 @@ footer {
     font-size: 13px;
     font-weight: 400;}
 
+
+.awards {
+    display:flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.awa-icn {
+    width: 35px;
+    display: flex;
+    height: 35px;
+    background: #ffffff;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 3px 3px;
+    margin-right: 1.5rem;
+}
+
+.staricn {
+    display: flex;
+    align-items: flex-end;
+}
+.staricn p {
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 8px;
+}
+.staricn span {
+    font-size: 10px;
+    font-weight: 400;
+    padding-left: 3px;
+}
+.click-more {
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+}
+
+.award {
+    padding: 5px;
+}
+
 /* Dashboard Pending Verifyction box */
 .alert-row {
     display: flex;
