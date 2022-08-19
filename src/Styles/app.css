@@ -315,6 +315,11 @@ footer {
     box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
 } */
 
+
+.text-col {
+    margin-top: 1rem;
+}
+
 .goal-tx  h1{
     font-size: 18px;
     font-weight: 500;
@@ -672,10 +677,10 @@ footer {
 
 
 /* nutri */
-.nutri-card {
+.meals-card {
     background-color: #ffffff;
     padding: 40px 35px;
-    width: 90%;
+    width: 85%;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -683,6 +688,11 @@ footer {
     box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
     margin-top: 2.2rem;
 }
+
+.headpart h1{
+    font-size: 20px;
+    font-family: "Lato",sans-serif;
+} 
 
 /* queries */
 .dash-main-col {
@@ -915,3 +925,34 @@ footer {
     background: #c4473c;
     transition: all .3s ease;
 }
+
+/* meals */
+.dash-txt {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

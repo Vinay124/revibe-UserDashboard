@@ -187,16 +187,16 @@ export default function Dashboard() {
                   <div className='dash-left-col'>
                     <div className='dash-left-row'>
                       <div className='dash-inner-txt'>
-                        <h1>My Info</h1>
+                        <h1>My Plan</h1>
                       </div>
                       <div className='dash-inner-card'>
                           <div className='inner-txt'>
                             <div className='dash-txt'>
-                            <h1>Coach</h1>
+                            {/* <h1>My Plan</h1> */}
                             <div className='coch-box'>
                               <div className='coch-bx'>
                               <div>
-                              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#B01E28" className="heart-fill" viewBox="0 0 16 16">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#fc5b4d" className="heart-fill" viewBox="0 0 16 16">
                               <path d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z"/>
                               </svg>
                               </div>
@@ -291,57 +291,24 @@ export default function Dashboard() {
                             </div>
                           </div>
                       </div>
+
                       <div className='dash-second-card'>
-                      <div className='meals-card'>
-                          <div className='inner-txt'>
-                            <div className='dash-txt'>
-                            <h1>Meals Today</h1>
-                            </div>
-                            <div className='dash-rows'>
-                              <div className='dash-cols'>
-                                <div className='protein'>
-                                  <h1>Protein</h1>
-                                  <p>100g</p>
-                                </div>
-                                <div className='carbs'>
-                                  <h1>Carbs</h1>
-                                  <p>200g</p>
-                                </div>
-                                <div className='fats'>
-                                  <h1>Fats</h1>
-                                  <p>20g</p>
-                                </div>
-                                <div className='calories'>
-                                  <h1>Calories</h1>
-                                  <p>2000Kcal</p>
-                                </div>
-                              </div>
-                            </div>
-                            {/* <div className='sub-txt'>
-                                <div className='sub-txt1'>
-                                  <h1>Protein</h1>
-                                  <span>100g</span>
-                                </div>
-                                <div className='sub-txt2'>
-                                  <h1>Carbs</h1>
-                                  <span>200g</span>
-                                </div>
-                                <div className='sub-txt3'>
-                                  <h1>Fats</h1>
-                                  <span>80g</span>
-                                </div>
-                                <div>
-                                <button className='viewmore-btn'>
-                                    <a href='/'>View More</a>
-                                  </button>
-                                </div>
-                            </div> */}
+                        <div className='meals-card'>
+                          <div className='headpart'>
+                            <h1>Meals Toady.</h1>
                           </div>
-                          {/* <div className='iner-logo'>
-                          <svg viewBox="0 0 152 152" focusable="false" role="presentation" className="health"><svg width="152" height="152" fill="none"><path fill="#CFF1E9" d="M74.594 132.188c34.57 0 62.594-28.024 62.594-62.594S109.164 7 74.594 7 12 35.024 12 69.594s28.024 62.594 62.594 62.594z" opacity="0.4"></path><path fill="#B3E9DD" d="M74.953 112.53c23.78 0 43.059-19.278 43.059-43.059 0-23.78-19.278-43.058-43.059-43.058S31.895 45.691 31.895 69.471s19.278 43.059 43.058 43.059z"></path><path fill="#F9C6B1" stroke="#111" strokeLinecap="square" strokeMiterlimit="10" strokeWidth="2" d="M50.135 77.047l24.52 24.619 24.619-24.62.199-.199a17.367 17.367 0 005.083-12.26c0-4.385-1.694-8.87-5.083-12.26a17.369 17.369 0 00-12.26-5.082c-4.485 0-8.87 1.694-12.26 5.083l-.199.2-.2-.2c-3.388-3.389-7.873-5.083-12.259-5.083s-8.87 1.694-12.26 5.083c-3.388 3.389-5.083 7.874-5.083 12.26s1.695 8.87 5.083 12.26c-.1.099 0 .199.1.199z"></path><path stroke="#111" strokeLinecap="square" strokeMiterlimit="10" strokeWidth="2" d="M33.19 72.561h31.497l5.682-7.973 7.276 15.848 5.681-7.875h33.49m-18.54 47.245l8.772-5.283c2.89-1.694 6.478-.797 8.272 1.994 1.695 2.691 1.097 6.179-1.395 8.173l-15.648 12.16c-.898.698-1.994 1.196-3.09 1.495l-28.108 7.077c-2.193.598-4.585.199-6.578-1.097l-20.533-13.356h-6.977v-22.326l13.855-2.293a8.52 8.52 0 015.382.897l12.758 6.977 20.732 1.097c3.19.199 5.681 2.79 5.681 5.98 0 3.09-2.292 5.681-5.382 5.98l-22.426 2.193"></path><path fill="#111" d="M33 107.797H22V132h11v-24.203z"></path></svg></svg>
-                          </div> */}
+                          <div className='cml-cards'>
+                            <div className='crd-row'>
+                              <div className='cml-img'>
+                                <img src="./assets/images/h1.png"/>
+                              </div>
+                              <div></div>
+                              <div></div>
+                            </div>
+                          </div>
+                        </div>
                       </div>
-                      </div>
+
                     </div>
                     <div>
                     </div>
@@ -413,7 +380,7 @@ export default function Dashboard() {
         </section>
 
         {/* boxsections cards */}
-        <section className='card-section'>
+        {/* <section className='card-section'>
           <div className='container'>
             <div className='details'>
                 <h1>Your Body </h1>
@@ -531,10 +498,10 @@ export default function Dashboard() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* my dietplan */}
-        <section className='mydiet'>
+        {/* <section className='mydiet'>
           <div className='container'>
               <div className='diet-menubar-col'>
                   <div className='diet-menubar-main'>
@@ -549,24 +516,13 @@ export default function Dashboard() {
                         <li><a href='/'>Dinner</a></li>
                       </ul>
                     </div>
-                    <div className='slider-btns'>
-                      <button className='leftarrow'>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" className="left" viewBox="0 0 16 16">
-                      <path d="M10 12.796V3.204L4.519 8 10 12.796zm-.659.753-5.48-4.796a1 1 0 0 1 0-1.506l5.48-4.796A1 1 0 0 1 11 3.204v9.592a1 1 0 0 1-1.659.753z"/>
-                        </svg>
-                      </button>
-                      <button className='rightarrow'>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" className="right" viewBox="0 0 16 16">
-                        <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
-                          </svg>
-                      </button>
-                    </div>
-                    {/* mainpage */}
+                    
+                    {/* mainpage 
                     <div className=''></div>
                   </div>
               </div>
           </div>
-        </section>
+        </section> */}
 
         {/* <Footer/> */}
     </React.Fragment>
