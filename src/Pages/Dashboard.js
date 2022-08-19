@@ -300,7 +300,7 @@ export default function Dashboard() {
                           <div className='cml-cards'>
                             <div className='crd-row'>
                               <div className='cml-img'>
-                                <img src="./assets/images/h1.png"/>
+                                <img src="../assets/images/h1.png"/>
                               </div>
                               <div></div>
                               <div></div>
