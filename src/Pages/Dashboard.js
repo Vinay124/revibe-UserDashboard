@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../Components/Header'
 import '../Styles/app.css'
+import Images from "../assets/images/h1.png"
 //import Footer from '../Components/Footer'
 
 
@@ -300,7 +301,19 @@ export default function Dashboard() {
                           <div className='cml-cards'>
                             <div className='crd-row'>
                               <div className='cml-img'>
-                                <img src="../assets/images/h1.png"/>
+                                <img src={Images} className="crd-img"/>
+                              </div>
+                              <div className='txtrws'>
+                              <h1>BreakFast</h1>
+                              <p>Bread, Peanut butter, apple</p>
+                              </div>
+                              <div className='kols'>
+                                <h1>525</h1>
+                                <p>kcal</p>
+                              </div>
+                              <div className='carbs'>
+                                <h1>Carbs</h1>
+                                <p>12g Left</p>
                               </div>
                               <div></div>
                               <div></div>

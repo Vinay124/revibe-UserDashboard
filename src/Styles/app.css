@@ -694,6 +694,11 @@ footer {
     font-family: "Lato",sans-serif;
 } 
 
+.crd-img {
+    width: 100px;
+    height: auto;
+}
+
 /* queries */
 .dash-main-col {
     display: flex;
