@@ -82,11 +82,22 @@ export default function Dashboard() {
           </div>
             <div className='goal-m-col'>
               <div className='goal-m-row'>
-                <div className='goal-icon'>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" className="droplet" viewBox="0 0 16 16">
+                {/* <div className='goal-icon'>
+                  <div className='goal-circle'>
+                    <div className='goal-cl'>
+                      <div className='gl-msk hf'>
+                        <div className='fll'></div>
+                      </div>
+                      <div className='msk-full'>
+                        <div className='fll'></div>
+                      </div>
+                      <div className='insd-crle'> 50%</div>
+                    </div>
+                  </div>
+                  {/* <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" className="droplet" viewBox="0 0 16 16">
                   <path d="M8 16a6 6 0 0 0 6-6c0-1.655-1.122-2.904-2.432-4.362C10.254 4.176 8.75 2.503 8 0c0 0-6 5.686-6 10a6 6 0 0 0 6 6ZM6.646 4.646l.708.708c-.29.29-1.128 1.311-1.907 2.87l-.894-.448c.82-1.641 1.717-2.753 2.093-3.13Z"/>
-                  </svg>
-                </div>
+                  </svg> 
+                </div> */}
                 <div className='goal-tx-row'>
                   <div className='goal-tx'>
                     <h1>Water</h1>
@@ -102,7 +113,7 @@ export default function Dashboard() {
                   </div>
                 </div>
               </div>
-              <div className='goal-sleep'>
+              {/* <div className='goal-sleep'>
                 <div className='goal-icon'>
                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" className='Sleep' viewBox="0 0 16 16">
               <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
@@ -165,7 +176,7 @@ export default function Dashboard() {
                     <h1>Ideal Workout</h1>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
         </div>
       </section>
@@ -181,40 +192,110 @@ export default function Dashboard() {
                       <div className='dash-inner-card'>
                           <div className='inner-txt'>
                             <div className='dash-txt'>
-                            <h1>My Progress</h1>
+                            <h1>Coach</h1>
+                            <div className='coch-box'>
+                              <div className='coch-bx'>
+                              <div>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#B01E28" className="heart-fill" viewBox="0 0 16 16">
+                              <path d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z"/>
+                              </svg>
+                              </div>
+                              <div className='coch-name'>
+                              <h1>Priti Karagaonkar</h1>
+                              </div>  
+                              </div>
+                              
+                              <div className='rate-coch'>
+                                <div className='rate-main'>
+                                <input type="radio" id="star5" name="rate" value="5" />
+                                <label for="star5" title="text">5 stars</label>
+                                  <input type="radio" id="star4" name="rate" value="4" />
+                                  <label for="star4" title="text">4 stars</label>
+                                  <input type="radio" id="star3" name="rate" value="3" />
+                                  <label for="star3" title="text">3 stars</label>
+                                  <input type="radio" id="star2" name="rate" value="2" />
+                                  <label for="star2" title="text">2 stars</label>
+                                  <input type="radio" id="star1" name="rate" value="1" />
+                                  <label for="star1" title="text">1 star</label>
+                                </div>
+                              </div>
+                            </div>
                             </div>
                             <div className='sub-txt'>
                                 <div className='sub-txt1'>
-                                  <h1>initial Weight</h1>
+                                  <h1>Correct Weight </h1>
                                   <span>20.00 Kgs</span>
                                 </div>
                                 <div className='sub-txt2'>
-                                  <h1>Current Weight</h1>
+                                  <h1>Goal Weight</h1>
                                   <span>50.00 Kgs</span>
                                 </div>
                                 <div className='sub-txt3'>
-                                  <h1>Goal Weight</h1>
-                                  <span>70.0 Kgs</span>
+                                  <h1>Plan Type</h1>
+                                  <div className='plan-type flex'>
+                                    <div className='cal-svg'>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#55657d" class="calendar" viewBox="0 0 16 16">
+                                  <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z"/>
+                                  <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                                    </svg>
+                                    </div>
+                                    <div className='valid'>
+                                      <h3>3 Months Comprehensive Plan</h3>
+                                    </div>
+                                  </div>
+                                  {/*  */}
+                                  <div className='exp-type flex'>
+                                    <div className='cal-svg'>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#55657d" className="clock" viewBox="0 0 16 16">
+                                        <path d="M8.515 1.019A7 7 0 0 0 8 1V0a8 8 0 0 1 .589.022l-.074.997zm2.004.45a7.003 7.003 0 0 0-.985-.299l.219-.976c.383.086.76.2 1.126.342l-.36.933zm1.37.71a7.01 7.01 0 0 0-.439-.27l.493-.87a8.025 8.025 0 0 1 .979.654l-.615.789a6.996 6.996 0 0 0-.418-.302zm1.834 1.79a6.99 6.99 0 0 0-.653-.796l.724-.69c.27.285.52.59.747.91l-.818.576zm.744 1.352a7.08 7.08 0 0 0-.214-.468l.893-.45a7.976 7.976 0 0 1 .45 1.088l-.95.313a7.023 7.023 0 0 0-.179-.483zm.53 2.507a6.991 6.991 0 0 0-.1-1.025l.985-.17c.067.386.106.778.116 1.17l-1 .025zm-.131 1.538c.033-.17.06-.339.081-.51l.993.123a7.957 7.957 0 0 1-.23 1.155l-.964-.267c.046-.165.086-.332.12-.501zm-.952 2.379c.184-.29.346-.594.486-.908l.914.405c-.16.36-.345.706-.555 1.038l-.845-.535zm-.964 1.205c.122-.122.239-.248.35-.378l.758.653a8.073 8.073 0 0 1-.401.432l-.707-.707z"/>
+                                      <path d="M8 1a7 7 0 1 0 4.95 11.95l.707.707A8.001 8.001 0 1 1 8 0v1z"/>
+                                      <path d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z"/>
+                                        </svg>
+                                    </div>
+                                    <div className='exp'>
+                                      <h3>90 Days <span> (Expires in : 4 Day/s ) </span></h3>
+                                    </div>
+                                  </div>
+                                  {/* <span>70.0 Kgs</span> */}
                                 </div>
-                                <div>
+                                <div className='upradebtn'>
+                                    <div><button className='btn-upgrade'>Upgrade Plan</button></div>
+                                    <div>
                                   <button className='viewmore-btn'>
-                                    <a href='/'>View More</a>
+                                    <a href='/'>View detais</a>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" className="arrow-2" viewBox="0 0 16 16">
                                     <path fillRule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
                                     </svg>
                                   </button>
                                 </div>
+                                </div>
                             </div>
                           </div>
                           <div className='iner-logo'>
-                          <svg viewBox="0 0 152 152" focusable="false" role="presentation" className="health"><svg width="152" height="152" fill="none"><path fill="#CFF1E9" d="M74.594 132.188c34.57 0 62.594-28.024 62.594-62.594S109.164 7 74.594 7 12 35.024 12 69.594s28.024 62.594 62.594 62.594z" opacity="0.4"></path><path fill="#B3E9DD" d="M74.953 112.53c23.78 0 43.059-19.278 43.059-43.059 0-23.78-19.278-43.058-43.059-43.058S31.895 45.691 31.895 69.471s19.278 43.059 43.058 43.059z"></path><path fill="#F9C6B1" stroke="#111" strokeLinecap="square" strokeMiterlimit="10" strokeWidth="2" d="M50.135 77.047l24.52 24.619 24.619-24.62.199-.199a17.367 17.367 0 005.083-12.26c0-4.385-1.694-8.87-5.083-12.26a17.369 17.369 0 00-12.26-5.082c-4.485 0-8.87 1.694-12.26 5.083l-.199.2-.2-.2c-3.388-3.389-7.873-5.083-12.259-5.083s-8.87 1.694-12.26 5.083c-3.388 3.389-5.083 7.874-5.083 12.26s1.695 8.87 5.083 12.26c-.1.099 0 .199.1.199z"></path><path stroke="#111" strokeLinecap="square" strokeMiterlimit="10" strokeWidth="2" d="M33.19 72.561h31.497l5.682-7.973 7.276 15.848 5.681-7.875h33.49m-18.54 47.245l8.772-5.283c2.89-1.694 6.478-.797 8.272 1.994 1.695 2.691 1.097 6.179-1.395 8.173l-15.648 12.16c-.898.698-1.994 1.196-3.09 1.495l-28.108 7.077c-2.193.598-4.585.199-6.578-1.097l-20.533-13.356h-6.977v-22.326l13.855-2.293a8.52 8.52 0 015.382.897l12.758 6.977 20.732 1.097c3.19.199 5.681 2.79 5.681 5.98 0 3.09-2.292 5.681-5.382 5.98l-22.426 2.193"></path><path fill="#111" d="M33 107.797H22V132h11v-24.203z"></path></svg></svg>
+                          <div class="circle-wrap">
+                            <div class="circle">
+                              <div class="mask half">
+                                <div class="fill"></div>
+                                </div>
+                                <div class="mask full">
+                                <div class="fill"></div>
+                                </div>
+                                <div class="inside-circle"> 
+                                <p>75%</p>
+                                <span>Compliance</span>
+                                </div>
+                            </div>
+                          </div>
+                            <div className='daily-up'>
+                              <button className='daily-check'>Daily check in</button>
+                            </div>
                           </div>
                       </div>
                       <div className='dash-second-card'>
-                      <div className='nutri-card'>
+                      <div className='meals-card'>
                           <div className='inner-txt'>
                             <div className='dash-txt'>
-                            <h1>Nutrition</h1>
+                            <h1>Meals Today</h1>
                             </div>
                             <div className='dash-rows'>
                               <div className='dash-cols'>
