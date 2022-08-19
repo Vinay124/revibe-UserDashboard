@@ -158,29 +158,322 @@ export default function Dashboard() {
         </div>
       </section>
 
-
-        {/* <section className='dashboard-body'>
+        <section className='dashboard-body'>
             <div className='container'>
               <div className='dash-main-col'>
                   <div className='dash-left-col'>
                     <div className='dash-left-row'>
                       <div className='dash-inner-txt'>
-                        <h1>Dashboard</h1>
+                        <h1>My Info</h1>
                       </div>
                       <div className='dash-inner-card'>
-                          
+                          <div className='inner-txt'>
+                            <div className='dash-txt'>
+                            <h1>My Progress</h1>
+                            </div>
+                            <div className='sub-txt'>
+                                <div className='sub-txt1'>
+                                  <h1>initial Weight</h1>
+                                  <span>20.00 Kgs</span>
+                                </div>
+                                <div className='sub-txt2'>
+                                  <h1>Current Weight</h1>
+                                  <span>50.00 Kgs</span>
+                                </div>
+                                <div className='sub-txt3'>
+                                  <h1>Goal Weight</h1>
+                                  <span>70.0 Kgs</span>
+                                </div>
+                                <div>
+                                  <button className='viewmore-btn'>
+                                    <a href='/'>View More</a>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" className="arrow-2" viewBox="0 0 16 16">
+                                    <path fillRule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                                    </svg>
+                                  </button>
+                                </div>
+                            </div>
+                          </div>
+                          <div className='iner-logo'>
+                          <svg viewBox="0 0 152 152" focusable="false" role="presentation" className="health"><svg width="152" height="152" fill="none"><path fill="#CFF1E9" d="M74.594 132.188c34.57 0 62.594-28.024 62.594-62.594S109.164 7 74.594 7 12 35.024 12 69.594s28.024 62.594 62.594 62.594z" opacity="0.4"></path><path fill="#B3E9DD" d="M74.953 112.53c23.78 0 43.059-19.278 43.059-43.059 0-23.78-19.278-43.058-43.059-43.058S31.895 45.691 31.895 69.471s19.278 43.059 43.058 43.059z"></path><path fill="#F9C6B1" stroke="#111" strokeLinecap="square" strokeMiterlimit="10" strokeWidth="2" d="M50.135 77.047l24.52 24.619 24.619-24.62.199-.199a17.367 17.367 0 005.083-12.26c0-4.385-1.694-8.87-5.083-12.26a17.369 17.369 0 00-12.26-5.082c-4.485 0-8.87 1.694-12.26 5.083l-.199.2-.2-.2c-3.388-3.389-7.873-5.083-12.259-5.083s-8.87 1.694-12.26 5.083c-3.388 3.389-5.083 7.874-5.083 12.26s1.695 8.87 5.083 12.26c-.1.099 0 .199.1.199z"></path><path stroke="#111" strokeLinecap="square" strokeMiterlimit="10" strokeWidth="2" d="M33.19 72.561h31.497l5.682-7.973 7.276 15.848 5.681-7.875h33.49m-18.54 47.245l8.772-5.283c2.89-1.694 6.478-.797 8.272 1.994 1.695 2.691 1.097 6.179-1.395 8.173l-15.648 12.16c-.898.698-1.994 1.196-3.09 1.495l-28.108 7.077c-2.193.598-4.585.199-6.578-1.097l-20.533-13.356h-6.977v-22.326l13.855-2.293a8.52 8.52 0 015.382.897l12.758 6.977 20.732 1.097c3.19.199 5.681 2.79 5.681 5.98 0 3.09-2.292 5.681-5.382 5.98l-22.426 2.193"></path><path fill="#111" d="M33 107.797H22V132h11v-24.203z"></path></svg></svg>
+                          </div>
                       </div>
-                      <div></div>
+                      <div className='dash-second-card'>
+                      <div className='nutri-card'>
+                          <div className='inner-txt'>
+                            <div className='dash-txt'>
+                            <h1>Nutrition</h1>
+                            </div>
+                            <div className='dash-rows'>
+                              <div className='dash-cols'>
+                                <div className='protein'>
+                                  <h1>Protein</h1>
+                                  <p>100g</p>
+                                </div>
+                                <div className='carbs'>
+                                  <h1>Carbs</h1>
+                                  <p>200g</p>
+                                </div>
+                                <div className='fats'>
+                                  <h1>Fats</h1>
+                                  <p>20g</p>
+                                </div>
+                                <div className='calories'>
+                                  <h1>Calories</h1>
+                                  <p>2000Kcal</p>
+                                </div>
+                              </div>
+                            </div>
+                            {/* <div className='sub-txt'>
+                                <div className='sub-txt1'>
+                                  <h1>Protein</h1>
+                                  <span>100g</span>
+                                </div>
+                                <div className='sub-txt2'>
+                                  <h1>Carbs</h1>
+                                  <span>200g</span>
+                                </div>
+                                <div className='sub-txt3'>
+                                  <h1>Fats</h1>
+                                  <span>80g</span>
+                                </div>
+                                <div>
+                                <button className='viewmore-btn'>
+                                    <a href='/'>View More</a>
+                                  </button>
+                                </div>
+                            </div> */}
+                          </div>
+                          {/* <div className='iner-logo'>
+                          <svg viewBox="0 0 152 152" focusable="false" role="presentation" className="health"><svg width="152" height="152" fill="none"><path fill="#CFF1E9" d="M74.594 132.188c34.57 0 62.594-28.024 62.594-62.594S109.164 7 74.594 7 12 35.024 12 69.594s28.024 62.594 62.594 62.594z" opacity="0.4"></path><path fill="#B3E9DD" d="M74.953 112.53c23.78 0 43.059-19.278 43.059-43.059 0-23.78-19.278-43.058-43.059-43.058S31.895 45.691 31.895 69.471s19.278 43.059 43.058 43.059z"></path><path fill="#F9C6B1" stroke="#111" strokeLinecap="square" strokeMiterlimit="10" strokeWidth="2" d="M50.135 77.047l24.52 24.619 24.619-24.62.199-.199a17.367 17.367 0 005.083-12.26c0-4.385-1.694-8.87-5.083-12.26a17.369 17.369 0 00-12.26-5.082c-4.485 0-8.87 1.694-12.26 5.083l-.199.2-.2-.2c-3.388-3.389-7.873-5.083-12.259-5.083s-8.87 1.694-12.26 5.083c-3.388 3.389-5.083 7.874-5.083 12.26s1.695 8.87 5.083 12.26c-.1.099 0 .199.1.199z"></path><path stroke="#111" strokeLinecap="square" strokeMiterlimit="10" strokeWidth="2" d="M33.19 72.561h31.497l5.682-7.973 7.276 15.848 5.681-7.875h33.49m-18.54 47.245l8.772-5.283c2.89-1.694 6.478-.797 8.272 1.994 1.695 2.691 1.097 6.179-1.395 8.173l-15.648 12.16c-.898.698-1.994 1.196-3.09 1.495l-28.108 7.077c-2.193.598-4.585.199-6.578-1.097l-20.533-13.356h-6.977v-22.326l13.855-2.293a8.52 8.52 0 015.382.897l12.758 6.977 20.732 1.097c3.19.199 5.681 2.79 5.681 5.98 0 3.09-2.292 5.681-5.382 5.98l-22.426 2.193"></path><path fill="#111" d="M33 107.797H22V132h11v-24.203z"></path></svg></svg>
+                          </div> */}
+                      </div>
+                      </div>
                     </div>
-                    <div></div>
+                    <div>
+                    </div>
                   </div>
                   <div className='dash-right-col'>
-                    <div></div>
-                    <div></div>
+                    <div className='query-col'>
+                    <div className='goal-txt'>
+                    <h1>Your Goals</h1>
+                  </div>
+                      <div className='query-row'>
+                        <div className='query-txt'>
+                          <div className='query-txtbx'>
+                          <h1>Queries or claims?</h1>
+                          <p>Talk to us for instant Support</p>
+                          </div>
+                          <div className='action-btn'>
+                          <button className='action-btn'>
+                            <a href='/'>View more</a>
+                            <div className='arrow-bg'>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                            </svg>
+                            </div>
+                          </button>
+                        </div>
+                        </div>
+                        <div className='query-img'>
+                          <div className='bg-query'>
+                          <svg viewBox="0 0 38 35" width="50" height="50" focusable="false" role="presentation" className="quary-icon"><svg fill="none" viewBox="0 0 38 35"><path fill="#fff" d="M33 1H4.2A3.2 3.2 0 001 4.2v17.6A3.2 3.2 0 004.2 25h8l6.4 8 6.4-8h8a3.2 3.2 0 003.2-3.2V4.2A3.2 3.2 0 0033 1z"></path><path stroke="#2D3D54" strokeLinecap="square" strokeMiterlimit="10" strokeWidth="2" d="M33 1H4.2A3.2 3.2 0 001 4.2v17.6A3.2 3.2 0 004.2 25h8l6.4 8 6.4-8h8a3.2 3.2 0 003.2-3.2V4.2A3.2 3.2 0 0033 1zM9 9h19.2M9 17h11.2"></path></svg></svg>
+                          </div>
+                        </div>
+                      </div>
+                      <div className='addon-plan'>
+                        <div className='addon-txt'>
+                          <div className='addon-txtbx'>
+                          <h1>Add on plans</h1>
+                          <p>Talk to us for instant Support</p>
+                          </div>
+                          <div className='action-btn'>
+                            <div className='plan-row'>
+                                <div className='plan-col'>
+                                    <div></div>
+                                </div>
+                            </div>
+                          <button className='action-btn'>
+                            <a href='/'>View more</a>
+                            <div className='arrow-bg'>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                            </svg>
+                            </div>
+                          </button>
+                        </div>
+                        </div>
+                        <div className='plus-img'>
+                          <div className='bg-plus'>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" className="plus" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+                            </svg>  
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                    </div>
                   </div>
               </div>
             </div>
-        </section> */}
+        </section>
+
+        {/* boxsections cards */}
+        <section className='card-section'>
+          <div className='container'>
+            <div className='details'>
+                <h1>Your Body </h1>
+            </div>
+            <div className='main-card-row'>
+              <div className='card-wrapper flex'>
+              <div className='main-card-col'>
+                <div className='cards-txt'>
+                  <span>BMI</span>
+                  <h1>12.47</h1>
+                  <p>Last Update : N/A</p>
+                </div>
+                <div className='crad-svg'>
+                  <div>
+                  <svg viewBox="0 0 38 35" width="50" height="50" focusable="false" role="presentation" class="quary-icon"><svg fill="none" viewBox="0 0 38 35"><path fill="#fff" d="M33 1H4.2A3.2 3.2 0 001 4.2v17.6A3.2 3.2 0 004.2 25h8l6.4 8 6.4-8h8a3.2 3.2 0 003.2-3.2V4.2A3.2 3.2 0 0033 1z"></path><path stroke="#2D3D54" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2" d="M33 1H4.2A3.2 3.2 0 001 4.2v17.6A3.2 3.2 0 004.2 25h8l6.4 8 6.4-8h8a3.2 3.2 0 003.2-3.2V4.2A3.2 3.2 0 0033 1zM9 9h19.2M9 17h11.2"></path></svg></svg>
+                  </div>
+                </div>
+              </div>
+              <div className='main-card-col'>
+                <div className='cards-txt'>
+                  <span>Body Fat Percentage</span>
+                  <h1>12.47</h1>
+                  <p>Last Update : N/A</p>
+                </div>
+                <div className='crad-svg'>
+                  <div>
+                  <svg viewBox="0 0 38 35" width="50" height="50" focusable="false" role="presentation" class="quary-icon"><svg fill="none" viewBox="0 0 38 35"><path fill="#fff" d="M33 1H4.2A3.2 3.2 0 001 4.2v17.6A3.2 3.2 0 004.2 25h8l6.4 8 6.4-8h8a3.2 3.2 0 003.2-3.2V4.2A3.2 3.2 0 0033 1z"></path><path stroke="#2D3D54" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2" d="M33 1H4.2A3.2 3.2 0 001 4.2v17.6A3.2 3.2 0 004.2 25h8l6.4 8 6.4-8h8a3.2 3.2 0 003.2-3.2V4.2A3.2 3.2 0 0033 1zM9 9h19.2M9 17h11.2"></path></svg></svg>
+                  </div>
+                </div>
+              </div>
+              <div className='main-card-col'>
+                <div className='cards-txt'>
+                  <span>Hip To Waist</span>
+                  <h1>12.47</h1>
+                  <p>Last Update : N/A</p>
+                </div>
+                <div className='crad-svg'>
+                  <div>
+                  <svg viewBox="0 0 38 35" width="50" height="50" focusable="false" role="presentation" class="quary-icon"><svg fill="none" viewBox="0 0 38 35"><path fill="#fff" d="M33 1H4.2A3.2 3.2 0 001 4.2v17.6A3.2 3.2 0 004.2 25h8l6.4 8 6.4-8h8a3.2 3.2 0 003.2-3.2V4.2A3.2 3.2 0 0033 1z"></path><path stroke="#2D3D54" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2" d="M33 1H4.2A3.2 3.2 0 001 4.2v17.6A3.2 3.2 0 004.2 25h8l6.4 8 6.4-8h8a3.2 3.2 0 003.2-3.2V4.2A3.2 3.2 0 0033 1zM9 9h19.2M9 17h11.2"></path></svg></svg>
+                  </div>
+                </div>
+              </div>
+              <div className='main-card-col'>
+                <div className='cards-txt'>
+                  <span>Metabolic Age</span>
+                  <h1>12.47</h1>
+                  <p>Last Update : N/A</p>
+                </div>
+                <div className='crad-svg'>
+                  <div>
+                  <svg viewBox="0 0 38 35" width="50" height="50" focusable="false" role="presentation" class="quary-icon"><svg fill="none" viewBox="0 0 38 35"><path fill="#fff" d="M33 1H4.2A3.2 3.2 0 001 4.2v17.6A3.2 3.2 0 004.2 25h8l6.4 8 6.4-8h8a3.2 3.2 0 003.2-3.2V4.2A3.2 3.2 0 0033 1z"></path><path stroke="#2D3D54" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2" d="M33 1H4.2A3.2 3.2 0 001 4.2v17.6A3.2 3.2 0 004.2 25h8l6.4 8 6.4-8h8a3.2 3.2 0 003.2-3.2V4.2A3.2 3.2 0 0033 1zM9 9h19.2M9 17h11.2"></path></svg></svg>
+                  </div>
+                </div>
+              </div>
+              <div className='main-card-col'>
+                <div className='cards-txt'>
+                  <span>Blood Age</span>
+                  <h1>12.47</h1>
+                  <p>Last Update : N/A</p>
+                </div>
+                <div className='crad-svg'>
+                  <div>
+                  <svg viewBox="0 0 38 35" width="50" height="50" focusable="false" role="presentation" class="quary-icon"><svg fill="none" viewBox="0 0 38 35"><path fill="#fff" d="M33 1H4.2A3.2 3.2 0 001 4.2v17.6A3.2 3.2 0 004.2 25h8l6.4 8 6.4-8h8a3.2 3.2 0 003.2-3.2V4.2A3.2 3.2 0 0033 1z"></path><path stroke="#2D3D54" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2" d="M33 1H4.2A3.2 3.2 0 001 4.2v17.6A3.2 3.2 0 004.2 25h8l6.4 8 6.4-8h8a3.2 3.2 0 003.2-3.2V4.2A3.2 3.2 0 0033 1zM9 9h19.2M9 17h11.2"></path></svg></svg>
+                  </div>
+                </div>
+              </div>
+              <div className='main-card-col'>
+                <div className='cards-txt'>
+                  <span>Helth Score</span>
+                  <h1>12.47</h1>
+                  <p>Last Update : N/A</p>
+                </div>
+                <div className='crad-svg'>
+                  <div>
+                  <svg viewBox="0 0 38 35" width="50" height="50" focusable="false" role="presentation" class="quary-icon"><svg fill="none" viewBox="0 0 38 35"><path fill="#fff" d="M33 1H4.2A3.2 3.2 0 001 4.2v17.6A3.2 3.2 0 004.2 25h8l6.4 8 6.4-8h8a3.2 3.2 0 003.2-3.2V4.2A3.2 3.2 0 0033 1z"></path><path stroke="#2D3D54" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2" d="M33 1H4.2A3.2 3.2 0 001 4.2v17.6A3.2 3.2 0 004.2 25h8l6.4 8 6.4-8h8a3.2 3.2 0 003.2-3.2V4.2A3.2 3.2 0 0033 1zM9 9h19.2M9 17h11.2"></path></svg></svg>
+                  </div>
+                </div>
+              </div>
+              <div className='main-card-col'>
+                <div className='cards-txt'>
+                  <span>Life Expectancy</span>
+                  <h1>12.47</h1>
+                  <p>Last Update : N/A</p>
+                </div>
+                <div className='crad-svg'>
+                  <div>
+                  <svg viewBox="0 0 38 35" width="50" height="50" focusable="false" role="presentation" class="quary-icon"><svg fill="none" viewBox="0 0 38 35"><path fill="#fff" d="M33 1H4.2A3.2 3.2 0 001 4.2v17.6A3.2 3.2 0 004.2 25h8l6.4 8 6.4-8h8a3.2 3.2 0 003.2-3.2V4.2A3.2 3.2 0 0033 1z"></path><path stroke="#2D3D54" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2" d="M33 1H4.2A3.2 3.2 0 001 4.2v17.6A3.2 3.2 0 004.2 25h8l6.4 8 6.4-8h8a3.2 3.2 0 003.2-3.2V4.2A3.2 3.2 0 0033 1zM9 9h19.2M9 17h11.2"></path></svg></svg>
+                  </div>
+                </div>
+              </div>
+              <div className='main-card-col'>
+                <div className='cards-txt'>
+                  <span>Inches Lost</span>
+                  <h1>12.47</h1>
+                  <p>Last Update : N/A</p>
+                </div>
+                <div className='crad-svg'>
+                  <div>
+                  <svg viewBox="0 0 38 35" width="50" height="50" focusable="false" role="presentation" class="quary-icon"><svg fill="none" viewBox="0 0 38 35"><path fill="#fff" d="M33 1H4.2A3.2 3.2 0 001 4.2v17.6A3.2 3.2 0 004.2 25h8l6.4 8 6.4-8h8a3.2 3.2 0 003.2-3.2V4.2A3.2 3.2 0 0033 1z"></path><path stroke="#2D3D54" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2" d="M33 1H4.2A3.2 3.2 0 001 4.2v17.6A3.2 3.2 0 004.2 25h8l6.4 8 6.4-8h8a3.2 3.2 0 003.2-3.2V4.2A3.2 3.2 0 0033 1zM9 9h19.2M9 17h11.2"></path></svg></svg>
+                  </div>
+                </div>
+              </div>
+              <div className='main-card-col'>
+                <div className='cards-txt'>
+                  <span>Weight Lost</span>
+                  <h1>12.47</h1>
+                  <p>Last Update : N/A</p>
+                </div>
+                <div className='crad-svg'>
+                  <div>
+                  <svg viewBox="0 0 38 35" width="50" height="50" focusable="false" role="presentation" class="quary-icon"><svg fill="none" viewBox="0 0 38 35"><path fill="#fff" d="M33 1H4.2A3.2 3.2 0 001 4.2v17.6A3.2 3.2 0 004.2 25h8l6.4 8 6.4-8h8a3.2 3.2 0 003.2-3.2V4.2A3.2 3.2 0 0033 1z"></path><path stroke="#2D3D54" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2" d="M33 1H4.2A3.2 3.2 0 001 4.2v17.6A3.2 3.2 0 004.2 25h8l6.4 8 6.4-8h8a3.2 3.2 0 003.2-3.2V4.2A3.2 3.2 0 0033 1zM9 9h19.2M9 17h11.2"></path></svg></svg>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* my dietplan */}
+        <section className='mydiet'>
+          <div className='container'>
+              <div className='diet-menubar-col'>
+                  <div className='diet-menubar-main'>
+                    <div className='diet-head'>
+                      <h1>My Diet Menus</h1>
+                    </div>
+                    <div className='menubar'>
+                      <ul className='menu-lgs flex'>
+                        <li><a href='/' className='active'>BreakFast</a></li>
+                        <li><a href='/'>Lunch</a></li>
+                        <li><a href='/'>Snacks</a></li>
+                        <li><a href='/'>Dinner</a></li>
+                      </ul>
+                    </div>
+                    <div className='slider-btns'>
+                      <button className='leftarrow'>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" className="left" viewBox="0 0 16 16">
+                      <path d="M10 12.796V3.204L4.519 8 10 12.796zm-.659.753-5.48-4.796a1 1 0 0 1 0-1.506l5.48-4.796A1 1 0 0 1 11 3.204v9.592a1 1 0 0 1-1.659.753z"/>
+                        </svg>
+                      </button>
+                      <button className='rightarrow'>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" className="right" viewBox="0 0 16 16">
+                        <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
+                          </svg>
+                      </button>
+                    </div>
+                    {/* mainpage */}
+                    <div className=''></div>
+                  </div>
+              </div>
+          </div>
+        </section>
 
         {/* <Footer/> */}
     </React.Fragment>
