@@ -4,14 +4,15 @@
 /* Pages */
 @import url('./Dashboard.css');
 @import url('./Login.css');
+@import url('./Myplan.css');
 
 
-* {
+
+*{
     margin: 0;
     padding: 0;
-    --webkit-font-smoothing:antialiased;
+    --webkit-font-smoothing:antialiased
 }
-
 
 body{
     color: var(--black);
@@ -661,7 +662,7 @@ position: relative;}
   }
   .inside-circle p {
     position: relative;
-    top: -9px;
+    top: -34px;
     left: 3px;
     font-size: 27px;
   }
@@ -877,6 +878,10 @@ position: relative;}
     flex: 0 0 544px;
 }
 
+.addon-carousels {
+    width: 100%;
+}
+
 .addon-plan {
     background-color: #ffffff;
     padding: 20px 35px;
@@ -921,6 +926,8 @@ position: relative;}
 
 .addon-txt {
     position: relative;
+    width: 100%;
+    max-width: 100%;
 
 }
 
@@ -1125,13 +1132,13 @@ position: relative;}
     grid-template-columns: repeat(3,1fr);
     grid-gap: 30px;
     grid-template-rows: 10rem;
-    grid-column-gap: 8rem;
+    grid-column-gap: 6rem;
     margin: 2rem 0;
 }
 
 .main-card-col {
     display: flex;
-    padding: 2rem;
+    padding: 1.5rem;
     background: #ffffff;
     width: 100%;
     height: 80px;
@@ -1222,7 +1229,8 @@ position: relative;}
 }
 .clck {
     display: flex;
-    align-items: flex-end;
+    align-items: baseline;
+
     
 }
 
@@ -1283,6 +1291,7 @@ position: relative;}
 .day h1 {
     color: #fc5b4d;
     font-weight: 400;
+    margin: auto;
 }
 .day span {
     color: #919191;
@@ -1309,11 +1318,10 @@ position: relative;}
     width: 2px;
     height: 45px;
     left: 13.5rem;
-    top: -10px;
+    top: 5px;
 }
 
 .gt-btn {
-    margin-top: 10px;
     border: none;
     outline: none;
     background:transparent;
@@ -1400,14 +1408,6 @@ position: relative;}
 .rsts {
     margin-left: 10px;
 }
-
-
-
-
-
-
-
-
 
 
 

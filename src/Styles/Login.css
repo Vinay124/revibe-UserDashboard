@@ -7,7 +7,7 @@
     background: #f2f5ff;
     width: 100%;
     height: auto;
-    height: 100vh;
+    height: 130vh;
 }
 .txt-col h1{
     font-size: 23px;
@@ -34,7 +34,7 @@
 
 .login_main {
     background: var(--white-bg);
-    padding: 2rem 3rem 2rem 3rem;
+    padding: 1rem 2rem 2rem 2rem;
     width: 100%;
     max-width: 30%;
     height: auto;
@@ -45,16 +45,14 @@
     text-align: center;
 }   
 .login_logo img{
-    /* width:40%;
-    margin-bottom: 1rem; */
-    width: 65%;
-    margin-bottom: 1.5rem;
+    width: 60%;
+    margin-bottom: 10px;
 }
 
-.form-col {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
+/* .form-col {
+    /* padding-top: 10px; 
+    /* padding-bottom: 10px; 
+} */
 
 .alert {
     color: red;
@@ -64,10 +62,10 @@
     font-style: italic;
     display: none;
 }
-.email-field {
-    /* padding: 1rem 0; */
+/* .email-field {
+    /* padding: 1rem 0; 
     padding-bottom: 10px;
-}
+} */
 
 .email-field input , .Password-field input{
     padding: 15px 10px;
@@ -200,7 +198,7 @@
 
 
 .dnt-acct {
-    margin-top: 3rem;
+    margin-top: 1.5rem;
     text-align: center;
     font-size: 13px;
 }
@@ -226,7 +224,7 @@
 
 .reset-pass-col {
     background: var(--white-bg);
-    padding: 2rem 2.5rem 2rem 2.5rem;
+    padding: 1rem 2rem 1rem 2rem;
     width: 100%;
     max-width: 30%;
     margin-top: 6rem;
@@ -236,7 +234,7 @@
 }
 
 .rest-txt {
-    margin: 1rem 0;
+    margin-bottom: 10px;
 }
 
 .rest-txt h1 {
@@ -266,7 +264,9 @@
     display: none;
 }
 .confirm-pass {
-    margin: 1rem 0;
+    /* margin: 1rem 0; */
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .back-btn {

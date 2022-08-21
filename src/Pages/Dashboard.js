@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../Components/Header'
+import HealthMatrix from '../Components/HealthMatrix'
 import '../Styles/app.css'
 import Images from "../assets/images/h1.png"
 import Img2 from "../assets/images/h2.png"
@@ -10,10 +11,8 @@ import Yoga3 from "../assets/images/y8.jpg"
 import Yoga4 from "../assets/images/y9.jpg"
 import Yoga5 from "../assets/images/y10.jpg"
 import Yoga6 from "../assets/images/y11.png"
-// import OwlCarousel from 'react-owl-carousel';
-// import 'owl.carousel/dist/assets/owl.carousel.css';
-// import 'owl.carousel/dist/assets/owl.theme.default.css';
 import Footer from '../Components/footer'
+import AddonCarousels from '../Components/AddonCarousels'
 
 
 export default function Dashboard() {
@@ -376,7 +375,7 @@ export default function Dashboard() {
                               <div className='wrk-col'>
                                 <div className='wrk-row'>
                                   <div className='wrk-imgs'>
-                                  <img src={Yoga1} className="yoga1"/>
+                                  <img src={Yoga1} className="yoga1" alt='/'/>
                                   </div>
                                   <div className='wrk-title'>
                                     <div className='wrk-ttl'>
@@ -397,7 +396,7 @@ export default function Dashboard() {
                                 </div>
                                 <div className='wrk-row'>
                                   <div className='wrk-imgs'>
-                                  <img src={Yoga2} className="yoga1"/>
+                                  <img src={Yoga2} className="yoga1" alt='/'/>
                                   </div>
                                   <div className='wrk-title'>
                                     <div className='wrk-ttl'>
@@ -418,7 +417,7 @@ export default function Dashboard() {
                                 </div>
                                 <div className='wrk-row'>
                                   <div className='wrk-imgs'>
-                                  <img src={Yoga3} className="yoga1"/>
+                                  <img src={Yoga3} className="yoga1" alt='/'/>
                                   </div>
                                   <div className='wrk-title'>
                                     <div className='wrk-ttl'>
@@ -439,7 +438,7 @@ export default function Dashboard() {
                                 </div>
                                 <div className='wrk-row'>
                                   <div className='wrk-imgs'>
-                                  <img src={Yoga4} className="yoga1"/>
+                                  <img src={Yoga4} className="yoga1" alt='/'/>
                                   </div>
                                   <div className='wrk-title'>
                                     <div className='wrk-ttl'>
@@ -460,7 +459,7 @@ export default function Dashboard() {
                                 </div>
                                 <div className='wrk-row'>
                                   <div className='wrk-imgs'>
-                                  <img src={Yoga5} className="yoga1"/>
+                                  <img src={Yoga5} className="yoga1" alt='/'/>
                                   </div>
                                   <div className='wrk-title'>
                                     <div className='wrk-ttl'>
@@ -481,7 +480,7 @@ export default function Dashboard() {
                                 </div>
                                 <div className='wrk-row'>
                                   <div className='wrk-imgs'>
-                                  <img src={Yoga6} className="yoga1"/>
+                                  <img src={Yoga6} className="yoga1" alt='/'/>
                                   </div>
                                   <div className='wrk-title'>
                                     <div className='wrk-ttl'>
@@ -538,28 +537,8 @@ export default function Dashboard() {
                         </div>
                       </div>
                       <div className='ad-cd-mn'>
-                        
-                      <div className='addon-plan'>
-                        <div className='addon-txt'>
-                          <div className='addponplan'>
-                            <h1>Started at ₹540</h1>
-                          </div>
-                          <div className='addon-txtbx'>
-                          <h1>Blood biomarkers</h1>
-                          <p>Talk to us for instant Support</p>
-                          </div>
-                          <div className='bio-buttons'>
-                            <div  className="btn-purch">
-                              <button className='gbtn-gt'>Learn More</button>
-                            </div>
-                            <div className='btn-purch'>
-                              <button className='btn-lrn'>Purchese</button>
-                            </div>
-                          </div>
-                          {/* <div className='addon-cont'>
-                          </div> */}
-                        </div>
-                      </div>
+                        <AddonCarousels/>
+                      
                       </div>
                       {/* calender section */}
                       <div className='events'>
@@ -739,55 +718,7 @@ export default function Dashboard() {
             </div>
         </section>
 
-        {/* boxsections cards */}
-        <section className='card-section'>
-          <div className='container'>
-            <div className='details'>
-                <h1>Health Matrix </h1>
-            </div>
-            <div className='main-card-row'>
-              <div className='card-wrapper flex'>
-              <div className='main-card-col'>
-                <div className='cards-txt'>
-                  <span>BMI</span>
-                  <h1>12.47</h1>
-                  <p>Last Update : N/A</p>
-                </div>
-                <div className='crad-svg'>
-                  <div>
-                  <svg viewBox="0 0 38 35" width="50" height="50" focusable="false" role="presentation" className="quary-icon"><svg fill="none" viewBox="0 0 38 35"><path fill="#fff" d="M33 1H4.2A3.2 3.2 0 001 4.2v17.6A3.2 3.2 0 004.2 25h8l6.4 8 6.4-8h8a3.2 3.2 0 003.2-3.2V4.2A3.2 3.2 0 0033 1z"></path><path stroke="#2D3D54" strokeLinecap="square" strokeMiterlimit="10" strokeWidth="2" d="M33 1H4.2A3.2 3.2 0 001 4.2v17.6A3.2 3.2 0 004.2 25h8l6.4 8 6.4-8h8a3.2 3.2 0 003.2-3.2V4.2A3.2 3.2 0 0033 1zM9 9h19.2M9 17h11.2"></path></svg></svg>
-                  </div>
-                </div>
-              </div>
-              <div className='main-card-col'>
-                <div className='cards-txt'>
-                  <span>Body Fat Percentage</span>
-                  <h1>12.47</h1>
-                  <p>Last Update : N/A</p>
-                </div>
-                <div className='crad-svg'>
-                  <div>
-                  <svg viewBox="0 0 38 35" width="50" height="50" focusable="false" role="presentation" className="quary-icon"><svg fill="none" viewBox="0 0 38 35"><path fill="#fff" d="M33 1H4.2A3.2 3.2 0 001 4.2v17.6A3.2 3.2 0 004.2 25h8l6.4 8 6.4-8h8a3.2 3.2 0 003.2-3.2V4.2A3.2 3.2 0 0033 1z"></path><path stroke="#2D3D54" strokeLinecap="square" strokeMiterlimit="10" strokeWidth="2" d="M33 1H4.2A3.2 3.2 0 001 4.2v17.6A3.2 3.2 0 004.2 25h8l6.4 8 6.4-8h8a3.2 3.2 0 003.2-3.2V4.2A3.2 3.2 0 0033 1zM9 9h19.2M9 17h11.2"></path></svg></svg>
-                  </div>
-                </div>
-              </div>
-              <div className='main-card-col'>
-                <div className='cards-txt'>
-                  <span>Hip To Waist</span>
-                  <h1>12.47</h1>
-                  <p>Last Update : N/A</p>
-                </div>
-                <div className='crad-svg'>
-                  <div>
-                  <svg viewBox="0 0 38 35" width="50" height="50" focusable="false" role="presentation" className="quary-icon"><svg fill="none" viewBox="0 0 38 35"><path fill="#fff" d="M33 1H4.2A3.2 3.2 0 001 4.2v17.6A3.2 3.2 0 004.2 25h8l6.4 8 6.4-8h8a3.2 3.2 0 003.2-3.2V4.2A3.2 3.2 0 0033 1z"></path><path stroke="#2D3D54" strokeLinecap="square" strokeMiterlimit="10" strokeWidth="2" d="M33 1H4.2A3.2 3.2 0 001 4.2v17.6A3.2 3.2 0 004.2 25h8l6.4 8 6.4-8h8a3.2 3.2 0 003.2-3.2V4.2A3.2 3.2 0 0033 1zM9 9h19.2M9 17h11.2"></path></svg></svg>
-                  </div>
-                </div>
-              </div>
-             </div>
-           </div>
-          </div>
-        </section>
-
+        <HealthMatrix/>
     <Footer/>
     </React.Fragment>
   )

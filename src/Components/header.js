@@ -1,10 +1,10 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-// import menu from './menu'
 import '../Styles/app.css'
 import logo from '../assets/images/logo-sm.png'
 
 export default function Header() {
+
   return (
     <React.Fragment>
         <nav>
